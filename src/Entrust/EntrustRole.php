@@ -1,11 +1,11 @@
 <?php namespace Zizaco\Entrust;
 
 use Exception;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Config;
-use LaravelBook\Ardent\Ardent;
 
-class EntrustRole extends Ardent
+class EntrustRole extends Model
 {
     /**
      * The database table used by the model.
